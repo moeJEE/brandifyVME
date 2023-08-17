@@ -153,12 +153,8 @@ Route::middleware(['admin'])->group(function () {
   //  Route::get('/action', [HeaderFooterSettingController::class, 'action'])->name('live_search.action');
   
 
-
-
     Route::get('admin/settings', [SettingController::class, 'edit'])->name('setting.edit');
     Route::put('admin/settings/{langid}/update', [SettingController::class, 'update'])->name('setting.update');
-
-
 
 
 });
