@@ -1,3 +1,7 @@
 .owl-lazy {
     border-radius: 3%;
 }
+
+.portfolio-section .project-image {
+    object-fit: cover;
+}
